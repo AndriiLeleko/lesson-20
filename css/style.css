@@ -3145,11 +3145,6 @@ h6 {
     display: none;
   }
 
-  .swiper-slide__article {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .subscribe-section__bg-decor {
     opacity: 0;
   }
@@ -4221,6 +4216,13 @@ h6 {
               column-gap: calc(0.625rem + 1.25 * (100vw - 20rem) / 58.75);
     }
 }
+}
+
+@media (min-width: 20em) and (max-width: 29.9375em) {
+  .swiper-slide__article {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 @media (any-hover: hover) {
